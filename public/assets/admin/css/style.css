@@ -1,0 +1,30 @@
+.login-form {
+    background: rgba(255, 255, 255, 0.4) none repeat scroll 0 0;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 90px rgba(49, 49, 49, 0.02), 0 0 16px rgba(0, 0, 0, 0.2);
+    margin: 10% auto 0;
+    max-width: 550px;
+    padding: 45px 75px;
+}
+.btn-block {
+    width: 100%;
+}
+
+.auth-head {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+/*
+body {
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+}
+*/
+
+body{
+    /*font-family: GillSans, Calibri, Trebuchet, sans-serif;*/
+}

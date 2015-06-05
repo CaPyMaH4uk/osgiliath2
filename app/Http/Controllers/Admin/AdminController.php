@@ -8,15 +8,24 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Contracts\Auth\Guard;
+
 
 class AdminController extends Controller {
 
+
+
+    public function __construct(Guard $auth)
+    {
+        $this->auth = $auth;
+        $this->middleware('auth');
+    }
+
     public function getIndex(){
 
-
-            dd([1, 2, 3]);
-
-            print "1";
+            return view('admin.app');
     }
+
+
 
 }

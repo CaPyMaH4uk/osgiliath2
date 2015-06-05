@@ -1,19 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="{{ asset('/assets/admin/css/materialize.min.css') }}"  media="screen,projection"/>
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-</head>
+@extends('admin.layouts')
 
-<body>
+@section('content')
 
 
-    Here we are
 
-<!--Import jQuery before materialize.js-->
-<script type="text/javascript" src="{{ asset('/assets/admin/js/jquery-1.11.3.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('/assets/admin/js/materialize.min.js') }}"></script>
-</body>
-</html>
+    <!-- Page Layout here -->
+    <div class="row">
+
+        <div class="col s3 green">
+            <!-- Grey navigation panel -->
+            грнин
+        </div>
+
+        <div class="col s9 teal">
+            <!-- Teal page content  -->
+            teal
+        </div>
+
+    </div>
+
+
+@endsection
